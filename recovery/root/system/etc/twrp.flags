@@ -31,5 +31,5 @@
 /up_param           emmc      /dev/block/by-name/up_param           flags=display="Param";backup=1;flashimg=1;
 
 # External Stuff
-/external_sd        vfat    /dev/block/mmcblk0p1 /dev/block/mmcblk0 flags=display="External SDCard";storage;wipeingui;removable;
-/usb-otg            vfat    /dev/block/sdf1 /dev/block/sdf          flags=display="USB OTG";storage;wipeingui;removable;
+/external_sd        vfat    /dev/block/mmcblk1p1 /dev/block/mmcblk1 flags=display="SDCard";storage;wipeingui;removable;
+/usb-otg            auto    /dev/block/sdf1 /dev/block/sdf          flags=display="USB OTG";storage;wipeingui;removable;
