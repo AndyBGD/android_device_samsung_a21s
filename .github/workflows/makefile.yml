@@ -2,9 +2,9 @@ name: Makefile CI
 
 on:
   push:
-    branches: [ "android-12.1" ]
+    branches: [ "a21s" ]
   pull_request:
-    branches: [ "android-12.1" ]
+    branches: [ "a21s" ]
 
 jobs:
   build:
